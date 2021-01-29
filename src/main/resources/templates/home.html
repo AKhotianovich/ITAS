@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:text="${title}"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+<header th:insert="bloks/header :: header"></header>
+
+<H1 align="center">ПРОФЕССОРСКО-ПРЕПОДАВАТЕЛЬСКИЙ СОСТАВ</H1>
+
+<div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">Навроцкий Анатолий Александрович. <span class="text-muted">кандидат физико-математических наук, доцент.</span></h2>
+            <p class="lead">Ауд.: 602в-5</p>
+            <p class="lead"> Тел.: +375172938473</p>
+            <p class="lead"> E-mail: navrotsky@bsuir.by</p>
+        </div>
+        <div class="col-md-5">
+            <img th:src="@{/img/Navritski.png}" width="450"/>
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Муха Владимир Степанович. <span class="text-muted">доктор технических наук, профессор.</span></h2>
+            <p class="lead">Ауд.: 602a-5</p>
+            <p class="lead"> Тел.: +375172938823</p>
+            <p class="lead"> E-mail: mukha@bsuir.by</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img th:src="@{/img/Myxa.png}" width="450"/>
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">Ревотюк Михаил Павлович. <span class="text-muted">кандидат технических наук, доцент.</span></h2>
+            <p class="lead">Ауд.: 306-5</p>
+            <p class="lead"> Тел.: +375172938658</p>
+            <p class="lead"> E-mail: rmp@bsuir.by</p>
+        </div>
+        <div class="col-md-5">
+            <img th:src="@{/img/Revotyk.png}" width="450"/>
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Герман Олег Витольдович. <span class="text-muted">кандидат технических наук, доцент.</span></h2>
+            <p class="lead">Ауд.: 605-5</p>
+            <p class="lead"> Тел.: +375172938904</p>
+            <p class="lead"> E-mail: ovgerman@tut.by</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img th:src="@{/img/German.png}" width="450"/>
+        </div>
+    </div>
+
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">Севернёв Александр Михайлович. <span class="text-muted">кандидат технических наук, доцент, ответственный за преддипломную практику.</span></h2>
+            <p class="lead">Ауд.: 605-5</p>
+            <p class="lead"> Тел.: +375172938904</p>
+            <p class="lead"> E-mail: severnev@bsuir.by</p>
+        </div>
+        <div class="col-md-5">
+            <img th:src="@{/img/Sever.png}" width="450"/>
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Ломако Александр Викторович. <span class="text-muted">кандидат технических наук, доцент, зам.декана ФИНО.</span></h2>
+            <p class="lead">Ауд.: 602-5</p>
+            <p class="lead"> Тел.: +375172938823</p>
+            <p class="lead"> E-mail: lavlot@bsuir.by</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img th:src="@{/img/Lomako.png}" width="450"/>
+        </div>
+    </div>
+
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">Гуринович Алевтина Борисовна. <span class="text-muted">доцент (совместитель 0,5 ст.), к.т.н., зам.декана ФИТиУ.</span></h2>
+            <p class="lead">Ауд.: 404a-5</p>
+            <p class="lead"> Тел.: +375172938664</p>
+            <p class="lead"> E-mail: gurinovich@bsuir.by</p>
+        </div>
+        <div class="col-md-5">
+            <img th:src="@{/img/Gurinovich.png}" width="450"/>
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Герман Юлия Олеговна. <span class="text-muted">доцент (совместитель 0,25 ст.), к.т.н..</span></h2>
+            <p class="lead">Ауд.: 605-5</p>
+            <p class="lead"> Тел.: +375172938904</p>
+            <p class="lead"> E-mail: jgerman@bsuir.by</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img th:src="@{/img/German U.png}" width="450"/>
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">	Батин Николай Владимирович. <span class="text-muted">старший преподаватель.</span></h2>
+            <p class="lead">Ауд.: 602б-5</p>
+            <p class="lead"> Тел.: +375172938404</p>
+            <p class="lead"> E-mail: batin@bsuir.by</p>
+        </div>
+        <div class="col-md-5">
+            <img th:src="@{/img/Batin.png}" width="450"/>
+        </div>
+    </div>
+
+
+    <!-- /END THE FEATURETTES -->
+
+</div>
+
+    <div th:insert="bloks/footer :: footer"></div>
+
+</body>
+</html>
